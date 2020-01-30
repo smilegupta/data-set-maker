@@ -28,6 +28,12 @@ def get_images():
     
     return getDataSet(arguments)
 
+# Port Configuartion
+ON_HEROKU = os.environ.get('ON_HEROKU')
+if ON_HEROKU:
+    PORT = int(os.environ.get('PORT'))
+else:
+    PORT = 3000
 
 if __name__ == '__main__':
-    app.run(host = '127.0.0.1', port = 3000)
+    app.run(host = '127.0.0.1', port = PORT)
