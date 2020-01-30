@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, jsonify
 import os
 from google_images_download import google_images_download
 
@@ -8,7 +8,6 @@ OUTPUT_DIR = os.path.join(CURR_DIR, "output")
 def getDataSet(conf):
     response = google_images_download.googleimagesdownload()
     paths = response.download(conf)
-    print(paths)
     return paths
 
 app=Flask(__name__)
@@ -27,7 +26,7 @@ def get_images():
                 "output_directory": OUTPUT_DIR
                 }
     
-    return getDataSet(arguments)
+    return jsonify(getDataSet(arguments))
 
 # Port Configuartion
 ON_HEROKU = os.environ.get('ON_HEROKU')
