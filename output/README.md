@@ -1,0 +1,1 @@
+In this directory all data images will get stored.
