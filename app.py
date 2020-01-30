@@ -8,6 +8,7 @@ OUTPUT_DIR = os.path.join(CURR_DIR, "output")
 def getDataSet(conf):
     response = google_images_download.googleimagesdownload()
     paths = response.download(conf)
+    print(paths)
     return paths
 
 app=Flask(__name__)
@@ -22,7 +23,7 @@ def get_images():
     nlimits = request.args.get('nlimits')
     arguments = {"keywords": nclass,
                 "limit": nlimits,
-                "print_urls":True,
+                "print_urls":False,
                 "output_directory": OUTPUT_DIR
                 }
     
