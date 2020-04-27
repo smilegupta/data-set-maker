@@ -29,7 +29,7 @@ there is a chance you are not able to find apt Dataset. This tool will make the 
 
 ```
 
-[![Facebook](https://img.shields.io/static/v1.svg?label=follow&message=@smilegupta.1998&color=9cf&logo=facebook&style=flat&logoColor=white&colorA=informational)](https://www.facebook.com/smilegupta.1998)  [![Instagram](https://img.shields.io/static/v1.svg?label=follow&message=@gupta_smile_&color=grey&logo=instagram&style=flat&logoColor=white&colorA=critical)](https://www.instagram.com/gupta_smile_/) [![LinkedIn](https://img.shields.io/static/v1.svg?label=connect&message=@smilegupta&color=9cf&logo=linkedin&style=flat&logoColor=white&colorA=blue)](https://www.linkedin.com/in/smilegupta/) [![Twitter](https://img.shields.io/static/v1.svg?label=connect&message=@gupta_smile_&color=grey&logo=twitter&style=flat&logoColor=white&colorA=critical)](https://twitter.com/gupta_smile_)
+[![Facebook](https://img.shields.io/static/v1.svg?label=follow&message=@smilegupta.1998&color=9cf&logo=facebook&style=flat&logoColor=white&colorA=informational)](https://www.facebook.com/smilegupta.1998)  [![Instagram](https://img.shields.io/static/v1.svg?label=follow&message=@gupta_smile_&color=grey&logo=instagram&style=flat&logoColor=white&colorA=critical)](https://www.instagram.com/gupta_smile_/) [![LinkedIn](https://img.shields.io/static/v1.svg?label=connect&message=@CodeOpsTech&color=9cf&logo=linkedin&style=flat&logoColor=white&colorA=blue)](https://www.linkedin.com/in/smilegupta/) [![Twitter](https://img.shields.io/static/v1.svg?label=connect&message=@CodeOpsTech_&color=grey&logo=twitter&style=flat&logoColor=white&colorA=critical)](https://twitter.com/CodeOpsTech)
 
 ***Glad to see you here! Show some love by [starring](https://github.com/smilegupta/data-set-maker/) this repo.***
 
